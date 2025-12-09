@@ -1,0 +1,52 @@
+# ─────────────────────────────
+# Core Framework
+# ─────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+
+# ─────────────────────────────
+# Machine Learning / Image Processing
+# ─────────────────────────────
+numpy==1.26.4
+pillow==10.4.0
+scikit-learn==1.5.1
+joblib==1.4.2
+
+# ─────────────────────────────
+# API / Networking
+# ─────────────────────────────
+requests==2.32.3
+python-multipart==0.0.9
+
+# ─────────────────────────────
+# Data Validation / Config
+# ─────────────────────────────
+pydantic==2.8.2
+pydantic-settings==2.4.0
+
+# ─────────────────────────────
+# Optional: Database / ORM
+# ─────────────────────────────
+SQLAlchemy==2.0.36
+
+# ─────────────────────────────
+# Optional: Environment / Utilities
+# ─────────────────────────────
+python-dotenv==1.0.1
+loguru==0.7.2
+
+# ─────────────────────────────
+# Testing
+# ─────────────────────────────
+pytest==8.3.2
+httpx==0.27.0
+
+# ─────────────────────────────
+# For Local Development / Notebooks
+# ─────────────────────────────
+ipykernel==6.29.5
+jupyter==1.0.0
+
+
+python-jose==3.3.0
+passlib[bcrypt]==1.7.4
